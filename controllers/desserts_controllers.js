@@ -1,13 +1,13 @@
-module.exports = desserts
+// module.exports = router
 
 
 
-const express = require('express')
-const router = express.Router()
+// const express = require('express')
+// const router = express.Router()
 
-router.use(express.json())
+// router.use(express.json())
 
-router.use(express.urlencoded({ extended: false }))
+// router.use(express.urlencoded({ extended: false }))
 
 
-const desserts = require('../models/dessertsmodels.js')
+// const desserts = require('../models/dessertsmodels.js')

@@ -53,9 +53,9 @@ app.delete('/desserts/:id', (req, res) => {
   res.redirect('/desserts')
 })
 
-const dessertsController = require('./controllers/desserts_controllers')
+// const dessertsController = require('./controllers/desserts_controllers')
 
-app.use('/desserts', dessertsController)
+// app.use('/desserts', dessertsController)
 app.get('/desserts/:id/edit', (req, res)=>{
   const foundFood= desserts[req.params.id]
   const context= {desserts: foundFood, id:req.params.id}
