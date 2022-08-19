@@ -72,5 +72,17 @@ const desserts= [
   
 >>>>>>> 6c0affd808021e8fe729c4b4c901f1bd3b5367b3
   
+  { name: 'Cinnamon rolls', 
+  price: 5 , 
+  image: 'https://www.thespruceeats.com/quick-cinnamon-rolls-3053776', 
+  flavors: ["Original", "Cream cheese", "Strawberry"]
+
+  },
+  { name: 'Ice cream', 
+  price: 3 , 
+  image: 'https://www.awesomealpharetta.com/food-drink/the-scoop-on-alpharettas-ice-cream-treats/', 
+  flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
+
+  },
 ]
 
