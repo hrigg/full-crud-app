@@ -28,5 +28,33 @@ const desserts= [
 
 
   
+  {name: "", 
+  price: , 
+  image: '', 
+  flavors: ["", "", ""]
+  }, 
+  {name: "", 
+  price: , 
+  image: '', 
+  flavors: ["", "", ""]
+  }, 
+  {name: "Pie", 
+  price: 5, 
+  image: 'https://www.supermarketperimeter.com/articles/7015-new-flavors-and-sizes-are-reshaping-the-future-of-pie', 
+  flavors: ["Pecan", "Apple", "Key Lime"]
+  }, 
+
+  { name: 'Cinnamon Rolls', 
+  price: 5 , 
+  image: 'https://www.thespruceeats.com/quick-cinnamon-rolls-3053776', 
+  flavors: ["Original", "Cream cheese", "Strawberry"]
+
+  },
+  { name: 'Ice Cream', 
+  price: 3 , 
+  image: 'https://www.awesomealpharetta.com/food-drink/the-scoop-on-alpharettas-ice-cream-treats/', 
+  flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
+
+  },
 ]
 
