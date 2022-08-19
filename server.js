@@ -25,18 +25,18 @@ app.post('/', (req, res)=>{
   res.redirect('/desserts')
 })
 
-
-
 app.get('/', (req,res)=>{
   res.redirect('/desserts')
 })
-
-
-
-
 
 app.get('/desserts/:id', (req,res)=>{
   const context= {desserts: desserts[req.params.id]}
   console.log(desserts[req.params.id])
   res.render('show.ejs', context)
+})
+
+app.get('/desserts/:id/edit', (req, res)=>{
+  const foundFood= desserts[req.params.id]
+  const context= {desserts: foundFood, id: req.params.id}
+  res.render('edit.ejs', context)
 })
