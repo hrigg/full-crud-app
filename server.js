@@ -10,5 +10,11 @@ app.listen(port, () => {
 const desserts= require ('./dessertsmodels.js');
 
 app.get('/', (req,res)=>{
-  res.send('working homepage')
+  res.redirect('/desserts')
+})
+
+app.get('/desserts', (req,res)=>{
+  const context= {desserts: desserts}
+  console.log(desserts[2])
+  res.render('index.ejs', context)
 })
