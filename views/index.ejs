@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Delicious Desserts</h1>
+    <nav class="new"> <a href='/new'> Add New Dessert</a></nav>
+    
+    <div class="dessertsList">
+        <% for (let i=0; i<desserts.length; i++) { %>
+            <div class="onecard">
+             <a href="/desserts/<%=i%>"> <%= desserts[i].name %></a>
+          
+             <img src ='<%= desserts[i].image %>' style="width: 100px;">
+            </div>
+            <% } %>
+    </div>
+</body>
+</html>

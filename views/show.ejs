@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowPage</title>
+</head>
+<body>
+    <div class="returnhome">
+        <nav class="gohome">
+            <a href="/desserts"> Home </a>
+        </nav>
+        <div>
+            <div>
+                <a href="/desserts/<%=id%>/edit">Edit Dessert Entry</a>
+            </div>
+            
+          
+      </div>
+    </div>
+<div>
+    <form action="/desserts_controllers.js" method="POST">
+    
+        <button type="submit">Delete</button>
+    </form>
+</div>
+<h1> <%= desserts.name %></h1> 
+<p> $$ <%= desserts.price %></p>
+<p> Flavors: <%= desserts.flavors%> </p>
+<img src="<%= desserts.image %>" style="width: 300px" alt="Image of <%= desserts.name %>">
+
+    
+</body>
+</html>
