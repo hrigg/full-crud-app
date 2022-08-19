@@ -1,8 +1,13 @@
 const express = require('express');
 const app = express();
 const port = 4001;
+//app.set('view engine', 'ejs')
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
+
+const methodOverride = require('method-override');
+app.use(methodOverride('_method'));
 
 app.listen(port, () => {
     console.log(`App is listening on: ${port}`)
@@ -24,8 +29,6 @@ app.post('/', (req, res)=>{
   desserts.push(newFood)
   res.redirect('/desserts')
 })
-
-
 
 app.get('/', (req,res)=>{
   res.redirect('/desserts')
@@ -53,3 +56,12 @@ app.delete('/desserts/:id', (req, res) => {
 const dessertsController = require('./controllers/desserts_controllers')
 
 app.use('/desserts', dessertsController)
+app.get('/desserts/:id/edit', (req, res)=>{
+  const foundFood= desserts[req.params.id]
+  const context= {desserts: foundFood, id: req.params.id}
+  res.render('edit.ejs', context)
+})
+app.put('/desserts/:id', (req, res)=>{
+  desserts[req.params.id] = req.body
+  res.redirect(`/desserts/${req.params.id}`)
+})
