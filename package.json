@@ -1,0 +1,26 @@
+{
+  "name": "full-crud-app",
+  "version": "1.0.0",
+  "main": "dessertsmodels.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrigg/full-crud-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrigg/full-crud-app/issues"
+  },
+  "homepage": "https://github.com/hrigg/full-crud-app#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
