@@ -9,6 +9,7 @@ const desserts= [
   image: 'http://thewoodandspoon.com/wp-content/uploads/2017/07/Last-Import-1-of-47-16.jpg', 
   flavors: ["Rainbow", "Fall Colors", "Red, White, Blue"]
   }, 
+ 
   {name: "Gummy Bears", 
   price: 3, 
   image: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg', 
@@ -24,20 +25,7 @@ const desserts= [
   image: 'https://www.simplyrecipes.com/thmb/n0haOVlgXcM8Sr53p3C-U53YP2U=/4399x3299/smart/filters:no_upscale()/Simply-Recipes-Easy-Banana-Bread-LEAD-2-2-63dd39af009945d58f5bf4c2ae8d6070.jpg', 
   flavors: ["Original", "With Nuts", "With Frosting"]
   }, 
-  
-
-
-  
-  {name: "", 
-  price: 0, 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: 0, 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
+ 
   {name: "Pie", 
   price: 5, 
   image: 'https://www.supermarketperimeter.com/ext/resources/2021/08/19/0819---holiday-pies.jpg?t=1629384170&width=1080', 
@@ -56,6 +44,7 @@ const desserts= [
   flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
 
   },
+
 ]
 
 module.exports= desserts
