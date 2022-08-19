@@ -10,10 +10,16 @@ const desserts= [
   flavors: ["Double Chocolate, Dark Chocolate, White Chocolate"]
   }, 
   
-  { name: 'cinnamon rolls', 
+  { name: 'Cinnamon rolls', 
   price: 5 , 
   image: 'https://www.thespruceeats.com/quick-cinnamon-rolls-3053776', 
-  flavors: "cinnamon" ,
+  flavors: ["Original", "Cream cheese", "Strawberry"]
+
+  },
+  { name: 'Ice cream', 
+  price: 3 , 
+  image: 'https://www.awesomealpharetta.com/food-drink/the-scoop-on-alpharettas-ice-cream-treats/', 
+  flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
 
   },
 ]
