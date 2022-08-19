@@ -29,12 +29,12 @@ const desserts= [
 
   
   {name: "", 
-  price: , 
+  price: 0, 
   image: '', 
   flavors: ["", "", ""]
   }, 
   {name: "", 
-  price: , 
+  price: 0, 
   image: '', 
   flavors: ["", "", ""]
   }, 
@@ -58,3 +58,4 @@ const desserts= [
   },
 ]
 
+module.exports= desserts
