@@ -24,3 +24,19 @@ app.get('/desserts/:id', (req,res)=>{
   console.log(desserts[req.params.id])
   res.render('show.ejs', context)
 })
+
+
+
+
+
+//Delete / Destroy Routes
+
+app.delete('/desserts/:id', (req, res) => {
+  const index = req.params.id
+  desserts.splice(index, 1)
+  res.redirect('/desserts')
+})
+
+const dessertController = require('./controllers/dessert')
+
+app.use('/desserts', dessertController)

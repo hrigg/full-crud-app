@@ -12,7 +12,12 @@
             <a href="/desserts"> Home </a>
         </nav>
     </div>
-
+<div>
+    <form action="{{route('contacts.destroy', $contact->id)}}" method="POST">
+    
+        <button type="submit">Delete</button>
+    </form>
+</div>
     
 </body>
 </html>
