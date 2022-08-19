@@ -9,26 +9,7 @@ const desserts= [
   image: 'http://thewoodandspoon.com/wp-content/uploads/2017/07/Last-Import-1-of-47-16.jpg', 
   flavors: ["Rainbow", "Fall Colors", "Red, White, Blue"]
   }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
+ 
   {name: "Pie", 
   price: 5, 
   image: 'https://www.supermarketperimeter.com/articles/7015-new-flavors-and-sizes-are-reshaping-the-future-of-pie', 
@@ -47,5 +28,15 @@ const desserts= [
   flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
 
   },
+  {name: "", 
+  price: , 
+  image: '', 
+  flavors: ["", "", ""]
+  }, 
+  {name: "", 
+  price: , 
+  image: '', 
+  flavors: ["", "", ""]
+  }, 
 ]
 
