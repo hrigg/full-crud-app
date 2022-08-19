@@ -8,10 +8,12 @@
 </head>
 <body>
     <h1> Delicious Desserts</h1>
+    <nav class="new"> <a href='/new'> Add New Dessert</a></nav>
+    
     <div class="dessertsList">
         <% for (let i=0; i<desserts.length; i++) { %>
             <div class="onecard">
-             <a href="/desserts/<%=i%>"> <%= desserts[i].name %></a>
+             <a href="desserts/<%=i%>"> <%= desserts[i].name %></a>
           
              <img src ='<%= desserts[i].image %>' style="width: 100px;">
             </div>

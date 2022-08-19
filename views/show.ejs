@@ -13,11 +13,16 @@
         </nav>
     </div>
 <div>
-    <form action="{{route('contacts.destroy', $contact->id)}}" method="POST">
+    <form action="/desserts_controllers.js" method="POST">
     
         <button type="submit">Delete</button>
     </form>
 </div>
+<h1> <%= desserts.name %></h1> 
+<p> $$ <%= desserts.price %></p>
+<p> Flavors: <%= desserts.flavors%> </p>
+<img src="<%= desserts.image %>" style="width: 300px" alt="Image of <%= desserts.name %>">
+
     
 </body>
 </html>
