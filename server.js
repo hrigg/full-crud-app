@@ -35,14 +35,14 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/desserts/:id', (req,res)=>{
-  const context= {desserts: desserts[req.params.id]}
+  const context= {desserts: desserts[req.params.id], id:req.params.id}
   console.log(desserts[req.params.id])
   res.render('show.ejs', context)
 })
 
 app.get('/desserts/:id/edit', (req, res)=>{
   const foundFood= desserts[req.params.id]
-  const context= {desserts: foundFood, id: req.params.id}
+  const context= {desserts: foundFood, id:req.params.id}
   res.render('edit.ejs', context)
 })
 app.put('/desserts/:id', (req, res)=>{
