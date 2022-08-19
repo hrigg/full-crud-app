@@ -9,7 +9,6 @@ const desserts= [
   image: 'http://thewoodandspoon.com/wp-content/uploads/2017/07/Last-Import-1-of-47-16.jpg', 
   flavors: ["Rainbow", "Fall Colors", "Red, White, Blue"]
   }, 
-<<<<<<< HEAD
   {name: "Gummy Bears", 
   price: 3, 
   image: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg', 
@@ -28,61 +27,6 @@ const desserts= [
   
 
 
-=======
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
-  {name: "", 
-  price: , 
-  image: '', 
-  flavors: ["", "", ""]
-  }, 
   
->>>>>>> 6c0affd808021e8fe729c4b4c901f1bd3b5367b3
-  
-  { name: 'Cinnamon rolls', 
-  price: 5 , 
-  image: 'https://www.thespruceeats.com/quick-cinnamon-rolls-3053776', 
-  flavors: ["Original", "Cream cheese", "Strawberry"]
-
-  },
-  { name: 'Ice cream', 
-  price: 3 , 
-  image: 'https://www.awesomealpharetta.com/food-drink/the-scoop-on-alpharettas-ice-cream-treats/', 
-  flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
-
-  },
 ]
 
