@@ -15,6 +15,12 @@ app.get('/', (req,res)=>{
 
 app.get('/desserts', (req,res)=>{
   const context= {desserts: desserts}
-  console.log(desserts[2])
+  console.log(desserts[0])
   res.render('index.ejs', context)
+})
+
+app.get('/desserts/:id', (req,res)=>{
+  const context= {desserts: desserts}
+  console.log(desserts[req.params.id])
+  res.render('show.ejs', context)
 })
