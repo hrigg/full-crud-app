@@ -28,19 +28,19 @@ const desserts= [
  
   {name: "Pie", 
   price: 5, 
-  image: 'https://www.supermarketperimeter.com/articles/7015-new-flavors-and-sizes-are-reshaping-the-future-of-pie', 
+  image: 'https://www.supermarketperimeter.com/ext/resources/2021/08/19/0819---holiday-pies.jpg?t=1629384170&width=1080', 
   flavors: ["Pecan", "Apple", "Key Lime"]
   }, 
 
   { name: 'Cinnamon Rolls', 
   price: 5 , 
-  image: 'https://www.thespruceeats.com/quick-cinnamon-rolls-3053776', 
+  image: 'https://www.thespruceeats.com/thmb/roPAlvp567wXt4sORxzCP17s7o0=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/quick-cinnamon-rolls-3053776-81543bd7548c4b7fa95b8c51aaec316d.jpg', 
   flavors: ["Original", "Cream cheese", "Strawberry"]
 
   },
   { name: 'Ice Cream', 
   price: 3 , 
-  image: 'https://www.awesomealpharetta.com/food-drink/the-scoop-on-alpharettas-ice-cream-treats/', 
+  image: 'https://www.awesomealpharetta.com/wp-content/uploads/2020/06/ice_cream_cones_blog.jpg', 
   flavors: ["Vanilla", "Chocolate", "Cookies and cream", "Mint chocolate"]
 
   },
