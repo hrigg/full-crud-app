@@ -47,3 +47,4 @@ const desserts= [
 
 ]
 
+module.exports= desserts
