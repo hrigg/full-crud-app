@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 const port = 4001;
-//app.set('view engine', 'ejs')
+app.set('view engine', 'ejs')
+
+const apiController=require('./controllers/api_controller')
+app.use('/api', apiController)
+
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
